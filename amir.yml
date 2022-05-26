@@ -1,0 +1,3 @@
+aws cloudformation create-stack --stack-name mystack 
+--template-url <template url> 
+--parameters ParameterKey=KeyName,ParameterValue=YOUR_KEY_NAME
